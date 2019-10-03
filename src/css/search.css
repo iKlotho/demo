@@ -1,0 +1,30 @@
+.search{
+    display: flex;
+    width: 100%;
+    margin: 0px auto;
+    align-items: center;
+    justify-content: center;
+}
+.search__form{
+    width: 90%;
+}
+.list{
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    overflow: auto;
+    
+}
+
+.input__line{
+    margin: 10px 0 ;
+}
+.put{
+    border:5px solid deepskyblue;
+    color: #000;
+    border-radius: 100px;
+}
+.abc{
+    height: 15vh;
+}

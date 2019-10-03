@@ -1,0 +1,43 @@
+.personDetail{
+    height: 85vh;
+    overflow: auto;
+
+}
+.person{
+    height: 50vh;
+    position: relative;
+}
+
+.person__picture{
+    height: 100%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    position: absolute;
+    object-fit: fill;
+}
+
+.back__list{
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+}
+.person__name{
+    color: #fff;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    z-index: 1000;
+}
+
+.menu{
+    height: 8vh;
+}
+
+.info{
+    height: 20vh;
+    
+}
+
